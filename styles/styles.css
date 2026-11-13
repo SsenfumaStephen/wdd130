@@ -38,7 +38,7 @@ main img {
     padding: 5px;
     width: 150px;
     height: auto;
-    box-shadow: #eee;
+    box-shadow: 5px 5px #eee;
 }
 
 p {
