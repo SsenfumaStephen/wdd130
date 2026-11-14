@@ -1,3 +1,7 @@
+:root {
+    --height: auto:
+}
+
 nav {
     background-color: darkblue;
     padding: 10px;
@@ -25,7 +29,7 @@ aside {
 
 aside img {
     width: 200px;
-    height: auto;
+    height: var(--height);
 }
 
 h1 {
@@ -37,7 +41,7 @@ main img {
     border-radius: 4px;
     padding: 5px;
     width: 150px;
-    height: auto;
+    height: var(--height);
     box-shadow: 5px 5px #eee;
 }
 
