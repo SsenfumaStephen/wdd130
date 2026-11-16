@@ -15,7 +15,7 @@
 
 body {
 
-    font-family: var(body-font);
+    font-family: var(--body-font);
     color: var(--accent1-color);
 }
 
@@ -29,7 +29,7 @@ footer {
 
 h1,
 h2 {
-    font-family: var(heading-font);
+    font-family: var(--heading-font);
     color: var(--primary-color)
 }
 
