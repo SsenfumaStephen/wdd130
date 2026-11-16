@@ -56,7 +56,7 @@ article {
 
 .hero img {
     display: block;
-    width: 100;
+    width: 100%;
     height: auto;
 }
 
@@ -83,6 +83,7 @@ article {
     border-radius: 8px;
     box-shadow: 0 2px 4px rgb(0 0 0, 0.05);
     font-family: var(--body-font);
+
 }
 
 .hero article img {
@@ -90,7 +91,7 @@ article {
     width: 125px;
     border: 1px solid #65edfc;
     margin: 0;
-    box-shadow: 2px 4px 0;
+    box-shadow: 2px 4px 0 rgb(0 0 0, 0.02);
 }
 
 .social media footer a {
