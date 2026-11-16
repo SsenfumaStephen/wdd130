@@ -41,7 +41,7 @@ article {
 
 }
 
-nav a {
+.social media a {
     text-decoration: none;
 }
 
@@ -92,6 +92,6 @@ nav a {
     box-shadow: 2px 4px 0;
 }
 
-footer a {
+.social media footer a {
     text-decoration: none;
 }
