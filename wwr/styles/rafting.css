@@ -67,11 +67,11 @@ article {
     }
 }
 
-.social-media a {
+.social media a {
     text-decoration: none;
 }
 
-.social-media a {
+.social media a {
     text-decoration: none;
 }
 
@@ -99,7 +99,7 @@ article {
     color: var(--secondary-color);
 }
 
-.hero-article {
+.hero article {
     position: absolute;
     bottom: 20px;
     right: 20px;
@@ -114,7 +114,7 @@ article {
 
 }
 
-.hero-article img {
+.hero article img {
     float: right;
     width: 125px;
     border: 1px solid #65edfc;
@@ -128,7 +128,7 @@ article {
     flex-wrap: wrap-reverse;
 }
 
-.social-media-footer a {
+.social media-footer a {
     text-decoration: none;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
