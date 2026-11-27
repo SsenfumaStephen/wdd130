@@ -120,10 +120,17 @@ article {
     border: 1px solid #65edfc;
     margin: 0;
     box-shadow: 0 1px 0 rgb(0 0 0 / 0.08);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
 }
 
 .social-media-footer a {
     text-decoration: none;
     display: grid;
     grid-template-columns: repeat(5, 1fr);
+
 }
