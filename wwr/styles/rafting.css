@@ -22,8 +22,12 @@ body {
 header,
 main,
 footer {
+    display: grid;
+    grid-template-columns: 120px 1fr 1fr;
+    align-items: center;
+    margin 0 auto;
     width: 840px;
-    margin: 0 auto;
+    border-bottom: 1px solid #ccc;
 
 }
 
@@ -40,6 +44,27 @@ article {
     margin: 16px;
     padding: 8px;
 
+    nav {
+        display: flex;
+        list-style: none;
+    }
+
+    .adventure {
+
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 10px;
+        width: 100%;
+    }
+
+    .adventure img {
+        display: flex;
+        gap: 10px;
+        flex: 1;
+        height: 200px;
+        min-width: 0;
+        object-fit: cover;
+    }
 }
 
 .social-media a {
@@ -56,8 +81,10 @@ article {
 
 .hero img {
     display: block;
-    width: 100%;
+    width: 64px;
     height: auto;
+    margin: 0 0.25rem 0 irem;
+
 }
 
 .hero h1 {
@@ -84,7 +111,7 @@ article {
     text-align: center;
     border-radius: 8px;
     box-shadow: 0 2px 4px rgb(0 0 0 / 0.05);
-    
+
 }
 
 .hero-article img {
@@ -97,4 +124,6 @@ article {
 
 .social-media-footer a {
     text-decoration: none;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
